@@ -1,0 +1,16 @@
+package user;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+public class UserDAO {
+	
+	public void join(String userID, String userPasswd) {
+		String SQL = "insert inro USER values (?, ?)";
+		try {
+			Connection con = DatabaseUtil.getConnection();
+			PreparedStatement pstmt = con.preparedSatement(SQL);
+		}
+	}
+
+}

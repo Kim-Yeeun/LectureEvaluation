@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ch11/WebContent/editborad.jsp&apos; to &apos;editboard.jsp&apos;" description="Rename resource &apos;editborad.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/editborad.jsp" name="editboard.jsp" stamp="1612863489749" updateReferences="true"/>
+</session>

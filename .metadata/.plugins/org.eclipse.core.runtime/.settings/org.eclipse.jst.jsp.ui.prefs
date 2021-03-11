@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+newFileTemplateName=New JSP File by Kim
+org.eclipse.wst.sse.ui.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="jsp_new" deleted\="false" description\="" enabled\="true" name\="New JSP File by Kim">&lt;%@ page language\="java" contentType\="text/html; charset\=${encoding}" pageEncoding\="${encoding}"%&gt;\n&lt;html&gt;\n&lt;head&gt;\n&lt;meta http-equiv\="content-Type" content\="text/html; charset\=${encoding}"&gt;\n&lt;title&gt;JSP \uC608\uC81C&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n${cursor}\n&lt;/body&gt;\n&lt;/html&gt;</template></templates>

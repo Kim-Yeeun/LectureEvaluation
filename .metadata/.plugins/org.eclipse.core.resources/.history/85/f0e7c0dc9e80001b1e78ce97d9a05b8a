@@ -1,0 +1,24 @@
+package user;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import util.DatabaseUtil;
+
+public class UserDAO {
+	
+	public void join(String userID, String userPasswd) {
+		String SQL = "insert into USER values (?, ?)";
+		try {
+			Connection con = DatabaseUtil.getConnection();
+			PreparedStatement pstmt = con.prepareStatement(SQL);
+			pstmt.setString(1, userID);
+			pstmt.setString(2, userPasswd);
+			return pstmt.executeUpdate();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return -1;
+	}
+
+}

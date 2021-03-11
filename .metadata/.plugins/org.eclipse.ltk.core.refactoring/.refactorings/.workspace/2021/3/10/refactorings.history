@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;makepost&apos; to &apos;retest&apos;" description="Rename resource &apos;makepost&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/makepost" name="retest" stamp="1614863238949" updateReferences="true"/>
+</session>
